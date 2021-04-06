@@ -109,7 +109,7 @@ const FourTop = () => {
         <TextTitle>Company</TextTitle>
         <Text>useState를 사용하여 소개, 인사말, 비젼 & 미션, 연혁 탭을 클릭하면 각각의 컴포넌트를 보여준다.</Text>
       </TextContainer>
-      <ProjectImg src="../../Portfolio/projectImg/fourtop/4topcompany.png" text="Company" />
+      <ProjectImg src="https://github.com/Qndtl/Portfolio/blob/master/public/projectImg/fourtop/4topcompany.PNG?raw=true" text="Company" />
       <TextContainer>
         <TextTitle>Upload</TextTitle>
         <Text>사진은 AWS S3에 저장을 하고 Prisma의 Post에는 AWS S3에 저장되어있는 사진의 url이 저장되어있다 &#40;multer, multer-s3사용&#41;</Text>
