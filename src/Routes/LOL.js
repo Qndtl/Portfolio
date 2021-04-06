@@ -82,7 +82,7 @@ const LOL = () => {
     <Helmet title="Portfolio | LOL Record" />
     <Container>
       <Title>LOL Record</Title>
-      <ProjectImg src={'../../portfolio/projectImg/lolrecord/firstpage.JPG'} text="롤 전적 검색 첫 화면" />
+      <ProjectImg src={'../../Portfolio/projectImg/lolrecord/firstpage.JPG'} text="롤 전적 검색 첫 화면" />
       <TextContainer>
         <TextTitle>
           Intro
@@ -100,7 +100,7 @@ const LOL = () => {
           Axios를 이용하여 소환사의 정보를 가져온다.
         </Text>
       </TextContainer>
-      <ProjectImg src={'../../portfolio/projectImg/lolrecord/developerpage.JPG'} text="Riot Developer Portal" />
+      <ProjectImg src={'../../Portfolio/projectImg/lolrecord/developerpage.JPG'} text="Riot Developer Portal" />
       <TextContainer>
         <TextTitle>
           Using API
@@ -118,7 +118,7 @@ const LOL = () => {
           위에서 가져온 gameId를 이용하여 각각의 게임에 대한 통계를 가져온다.
         </Text>
       </TextContainer>
-      <ProjectImg src={'../../portfolio/projectImg/lolrecord/apipage.JPG'} text="League of Legends apis" />
+      <ProjectImg src={'../../Portfolio/projectImg/lolrecord/apipage.JPG'} text="League of Legends apis" />
       <TextContainer>
         <TextTitle>
           Result
@@ -133,7 +133,7 @@ const LOL = () => {
           게임 결과에 따라 승리시 붉은색으로 나타내고 패배시 푸른색으로 나타내준다.
         </Text>
       </TextContainer>
-      <ProjectImg src={'../../portfolio/projectImg/lolrecord/searched.JPG'} text="소환사 검색 결과" />
+      <ProjectImg src={'../../Portfolio/projectImg/lolrecord/searched.JPG'} text="소환사 검색 결과" />
       <GitLink>
         <GitHub size="48" />
         <span>Github Link</span>

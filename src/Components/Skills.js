@@ -74,22 +74,22 @@ const SkillsCard = () => {
       <FrontendContainer>
         <Text>Front-end</Text>
         <SkillContainer>
-          <Skill src="../../portfolio/skillsImg/html.png" />
-          <Skill src="../../portfolio/skillsImg/css.png" />
-          <Skill src="../../portfolio/skillsImg/javascript.png" />
-          <Skill src="../../portfolio/skillsImg/react.png" />
-          <Skill src="../../portfolio/skillsImg/styledComponent.png" />
+          <Skill src="../../Portfolio/skillsImg/html.png" />
+          <Skill src="../../Portfolio/skillsImg/css.png" />
+          <Skill src="../../Portfolio/skillsImg/javascript.png" />
+          <Skill src="../../Portfolio/skillsImg/react.png" />
+          <Skill src="../../Portfolio/skillsImg/styledComponent.png" />
         </SkillContainer>
       </FrontendContainer>
       <BackendContainer>
         <Text>Back-end</Text>
         <SkillContainer>
-          <Skill src="../../portfolio/skillsImg/express.png" />
-          <Skill src="../../portfolio/skillsImg/mongodb.png" />
-          <Skill src="../../portfolio/skillsImg/graphql.png" />
-          <Skill src="../../portfolio/skillsImg/apollo.png" />
-          <Skill src="../../portfolio/skillsImg/prisma.png" />
-          <Skill src="../../portfolio/skillsImg/passport.png" />
+          <Skill src="../../Portfolio/skillsImg/express.png" />
+          <Skill src="../../Portfolio/skillsImg/mongodb.png" />
+          <Skill src="../../Portfolio/skillsImg/graphql.png" />
+          <Skill src="../../Portfolio/skillsImg/apollo.png" />
+          <Skill src="../../Portfolio/skillsImg/prisma.png" />
+          <Skill src="../../Portfolio/skillsImg/passport.png" />
         </SkillContainer>
       </BackendContainer>
     </Container>

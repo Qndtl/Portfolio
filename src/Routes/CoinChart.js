@@ -78,13 +78,13 @@ const GitLink = styled.div`
 
 const CoinChart = () => {
   useEffect(() => {
-    window.scrollTo(0,0);
-  },[])
+    window.scrollTo(0, 0);
+  }, [])
   return <>
-  <Helmet title="Portfolio | Coin Price Chart" />
+    <Helmet title="Portfolio | Coin Price Chart" />
     <Container>
       <Title>Coin Price Chart</Title>
-      <ProjectImg src={'../../portfolio/projectImg/coin_main.JPG'} text="코인 차트 첫 화면" />
+      <ProjectImg src={'../../Portfolio/projectImg/coin_main.JPG'} text="코인 차트 첫 화면" />
       <TextContainer>
         <TextTitle>
           Intro
@@ -102,7 +102,7 @@ const CoinChart = () => {
           Axios를 이용하여 코인의 정보를 가져온다.
         </Text>
       </TextContainer>
-      <ProjectImg src={'../../portfolio/projectImg/coinchart/coingecko.JPG'} text="Coin Gecko API" />
+      <ProjectImg src={'../../Portfolio/projectImg/coinchart/coingecko.JPG'} text="Coin Gecko API" />
       <TextContainer>
         <TextTitle>
           Using API
@@ -114,7 +114,7 @@ const CoinChart = () => {
           검색 창에 코인의 이름을 입력하면 코인이 있으면 axios로 정보를 가져오고, 코인이 없으면 coin not found를 출력해준다.
         </Text>
       </TextContainer>
-      <ProjectImg src={'../../portfolio/projectImg/coinchart/search.JPG'} text="코인 검색 결과" />
+      <ProjectImg src={'../../Portfolio/projectImg/coinchart/search.JPG'} text="코인 검색 결과" />
       <TextContainer>
         <TextTitle>
           Result
@@ -129,7 +129,7 @@ const CoinChart = () => {
           코인 차트는 Chart JS를 사용하였다.
         </Text>
       </TextContainer>
-      <ProjectImg src={'../../portfolio/projectImg/coinchart/detail.png'} text="코인 상세 화면" />
+      <ProjectImg src={'../../Portfolio/projectImg/coinchart/detail.png'} text="코인 상세 화면" />
       <GitLink>
         <GitHub size="48" />
         <span>Github Link</span>

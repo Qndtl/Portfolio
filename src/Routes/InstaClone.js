@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import styled from "styled-components";
 import { GitHub } from "../Components/Icons";
 import ProjectImg from "../Components/ProjectImg";
-import {Helmet} from 'react-helmet';
+import { Helmet } from 'react-helmet';
 
 const Container = styled.div`
   min-height: calc(100vh - 80px);
@@ -76,13 +76,13 @@ const GitLink = styled.div`
 
 const InstaClone = () => {
   useEffect(() => {
-    window.scrollTo(0,0);
-  },[])
+    window.scrollTo(0, 0);
+  }, [])
   return <>
     <Helmet title="Portfolio | Insta Clone" />
     <Container>
       <Title>Insta Clone</Title>
-      <ProjectImg src="../../portfolio/projectImg/instaclone/feed.JPG" text="인스타 클론" />
+      <ProjectImg src="../../Portfolio/projectImg/instaclone/feed.JPG" text="인스타 클론" />
       <TextContainer>
         <TextTitle>Intro</TextTitle>
         <Text>인스타그램 클론 코딩하였다.</Text>
@@ -94,7 +94,7 @@ const InstaClone = () => {
         <Text>Backend는 Prisma1을 사용하였다.</Text>
         <Text>GraphQL-yoga를 사용하였고 파일을 업로드 할 때는 GraphQLServer에 내장되어있는 express를 사용하여 REST로 업로드 해주었다.</Text>
       </TextContainer>
-      <ProjectImg src="../../portfolio/projectImg/instaclone/prisma.JPG" text="Prisma" />
+      <ProjectImg src="../../Portfolio/projectImg/instaclone/prisma.JPG" text="Prisma" />
       <TextContainer>
         <TextTitle>Log In</TextTitle>
         <Text>로그인은 passport-jwt, json web token을 사용하여 localStorage에 토큰을 저장하는 방식을 사용하였다.</Text>
@@ -102,21 +102,21 @@ const InstaClone = () => {
         <Text>이메일은 nodemailer, nodemailer-mailgun-transport를 사용하여 전송하였다.</Text>
         <Text>Alert 대신 Toastify를 사용하여 알림을 준다.</Text>
       </TextContainer>
-      <ProjectImg src="../../portfolio/projectImg/instaclone/signup.JPG" text="Sign Up" />
+      <ProjectImg src="../../Portfolio/projectImg/instaclone/signup.JPG" text="Sign Up" />
       <TextContainer>
         <TextTitle>Feed</TextTitle>
         <Text>로그인 성공 후 사용자들이 올린 게시물들이 보여진다.</Text>
         <Text>게시물을 업로드 할 때 여러장의 사진을 올린 경우에는 useEffect를 이용해 사진들이 자동으로 슬라이드된다.</Text>
         <Text>좋아요와 댓글의 경우는 fake state를 만들어 주어 즉시 변경이 적용되도록 하였다.</Text>
       </TextContainer>
-      <ProjectImg src="../../portfolio/projectImg/instaclone/feed.JPG" text="Feed" />
+      <ProjectImg src="../../Portfolio/projectImg/instaclone/feed.JPG" text="Feed" />
       <TextContainer>
         <TextTitle>Search</TextTitle>
         <Text>검색을 하면 사용자와 게시물의 검색 결과가 나온다.</Text>
         <Text>사용자 검색은 검색하기 위해 입력한 텍스트를 포함하는 username, firstname, lastname이 있는 사용자를 찾아주고 없는 경우 User Not Found를 보여준다.</Text>
         <Text>게시물 검색은 검색하기 위해 입력한 텍스트를 포함하는 caption, location이 있는 게시물을 찾아주고 없는 경우 Post Not Found를 보여준다.</Text>
       </TextContainer>
-      <ProjectImg src="../../portfolio/projectImg/instaclone/searchresult.JPG" text="검색 결과" />
+      <ProjectImg src="../../Portfolio/projectImg/instaclone/searchresult.JPG" text="검색 결과" />
       <TextContainer>
         <TextTitle>Upload</TextTitle>
         <Text>Prisma에는 Post의 id, File의 id, url 등이 저장이 되고 사진 자체는 AWS S3에 저장이 된다.</Text>
@@ -124,12 +124,12 @@ const InstaClone = () => {
         <Text>GraphQL을 사용하지만 사진 업로드만 REST를 사용하였다.</Text>
         <Text>업로드를 하고나면 다시 Feed 페이지로 이동한다.</Text>
       </TextContainer>
-      <ProjectImg src="../../portfolio/projectImg/instaclone/upload.JPG" text="Upload Post" />
+      <ProjectImg src="../../Portfolio/projectImg/instaclone/upload.JPG" text="Upload Post" />
       <TextContainer>
         <TextTitle>Profile</TextTitle>
         <Text>프로필에는 Avatar, username, fullname, follower, following, 내가 작성한 게시물이 표시된다.</Text>
       </TextContainer>
-      <ProjectImg src="../../portfolio/projectImg/instaclone/profile.JPG" text="Profile" />
+      <ProjectImg src="../../Portfolio/projectImg/instaclone/profile.JPG" text="Profile" />
       <GitLink>
         <GitHub size="48" />
         <span>Github Link</span>

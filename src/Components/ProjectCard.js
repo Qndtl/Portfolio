@@ -90,7 +90,7 @@ const Skill = styled.div`
   animation: ${comeUp} 100ms linear;
 `;
 
-const ProjectCard = ({src, text, skills, inProgress, link}) => {
+const ProjectCard = ({ src, text, skills, inProgress, link }) => {
   return <Wrapper>
     <Link to={link}><Container src={src} >
       {
@@ -98,10 +98,10 @@ const ProjectCard = ({src, text, skills, inProgress, link}) => {
       }
       <SkillsContainer className="SkillsContainer">
         {
-          skills.map((skill, i) => <Skill key={i} src={`../../portfolio/skillsImg/${skill}.png`} />)
+          skills.map((skill, i) => <Skill key={i} src={`../../Portfolio/skillsImg/${skill}.png`} />)
         }
       </SkillsContainer>
-    </Container></Link> 
+    </Container></Link>
     <Text>{text}</Text>
   </Wrapper>
 }
