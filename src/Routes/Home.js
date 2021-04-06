@@ -210,13 +210,13 @@ const Home = ({ aboutRef, projectsRef, contactRef }) => {
         </AboutContainer>
       </About>
       <Projects ref={projectsRef}>
-        <Title>Projects haha</Title>
+        <Title>Projects</Title>
         <ProjectsContainer>
+          <ProjectCard link="/project/fourtop" src={'../../Portfolio/projectImg/fourTop_home.png'} text="Four Top" skills={fourtopSkills} inProgress={true} />
           <ProjectCard link="/project/lol" src={'../../Portfolio/projectImg/lol_main.JPG'} text="LOL Record Search" skills={lolSkills} inProgress={false} />
           <ProjectCard link="/project/coin" src={'../../Portfolio/projectImg/coin_main.JPG'} text="Coin Price Chart" skills={coinSkills} inProgress={false} />
           <ProjectCard link="/project/simplepost" src={'../../Portfolio/projectImg/SP_auth.JPG'} text="Simple Posting" skills={spSkills} inProgress={false} />
           <ProjectCard link="/project/instaclone" src={'../../Portfolio/projectImg/insta_clone.JPG'} text="Instagram Clone" skills={instaSkills} inProgress={false} />
-          <ProjectCard link="/project/fourtop" src={'../../Portfolio/projectImg/fourTop_home.png'} text="Four Top" skills={fourtopSkills} inProgress={true} />
         </ProjectsContainer>
       </Projects>
       <Contact ref={contactRef}>

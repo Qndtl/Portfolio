@@ -132,9 +132,11 @@ const FourTop = () => {
       <GitLink>
         <GitHub size="48" />
         <span>Github Link</span>
-        <a href="https://github.com/hyunduk-jo/four-top-backend">SERVER</a>
+        <a href="https://github.com/Qndtl/Printer-back">SERVER</a>
         <span>/</span>
-        <a href="https://github.com/hyunduk-jo/four-top-frontend">CLIENT</a>
+        <a href="https://github.com/Qndtl/Printer-Front">CLIENT</a>
+        <span>/</span>
+        <a href="https://4top.netlify.com">LINK</a>
       </GitLink>
     </Container>
   </>
