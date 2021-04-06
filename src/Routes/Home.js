@@ -210,7 +210,7 @@ const Home = ({ aboutRef, projectsRef, contactRef }) => {
         </AboutContainer>
       </About>
       <Projects ref={projectsRef}>
-        <Title>Projects</Title>
+        <Title>Projects haha</Title>
         <ProjectsContainer>
           <ProjectCard link="/project/lol" src={'../../Portfolio/projectImg/lol_main.JPG'} text="LOL Record Search" skills={lolSkills} inProgress={false} />
           <ProjectCard link="/project/coin" src={'../../Portfolio/projectImg/coin_main.JPG'} text="Coin Price Chart" skills={coinSkills} inProgress={false} />
