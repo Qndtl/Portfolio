@@ -82,53 +82,47 @@ const FourTop = () => {
     <Helmet title="Portfolio | Four Top" />
     <Container>
       <Title>Four Top</Title>
-      <ProjectImg src="../../Portfolio/projectImg/fourtop/home.png" text="Four Top" />
+      <ProjectImg src="../../Portfolio/projectImg/fourtop/4top_Home.png" text="Four Top" />
       <TextContainer>
         <TextTitle>
           Intro
         </TextTitle>
         <Text>3D 프린터 커뮤니티 및 렌탈 서비스를 하는 프로젝트이다.</Text>
-
-      </TextContainer>
-      <TextContainer>
-        <TextTitle>Prisma</TextTitle>
-        <Text>Backend는 Prisma1을 사용하였다.</Text>
-        <Text>인스타 클론과 마찬가지로 GraphQL-yoga를 사용하였고 파일을 업로드 할 때는 GraphQLServer에 내장되어있는 express를 사용하여 REST로 업로드 해주었다.</Text>
+        <Text>Frontend는 React를 사용하였고 Backend는 Prisma2를 사용하였다.</Text>
       </TextContainer>
       <TextContainer>
         <TextTitle>Login</TextTitle>
-        <Text>로그인은 passport-jwt, json web token을 사용하여 localStorage에 토큰을 저장하는 방식을 사용하였다.</Text>
-        <Text>로그인을 하기 위해서는 당연히 가입이 필요하고 가입후 로그인을 하면 가입을 했던 이메일로 loginSecret을 포함한 이메일이 온다.</Text>
-        <Text>토큰 생성은 이메일로 받은 loginSecret이 Prisma에 저장되어있는 loginSecret과 같으면 생성이되고 localStorage에 저장이 된다.</Text>
-        <Text>이메일은 nodemailer, nodemailer-mailgun-transport를 사용하여 전송하였다.</Text>
-        <Text>Alert 대신 Toastify를 사용하여 알림을 준다.</Text>
+        <Text>로그인은 json web token을 사용하여 localStorage에 토큰을 저장하는 방식을 사용하였다.</Text>
+        <Text>로그인은 아이디와 비밀번호를 이용하고 bcrypt를 이용하여 비밀번호를 저장하였다.</Text>
+        <Text>로그인에 성공을 하면 jwt 토큰을 보내주어 localStorage에 저장을 하고 redux의 state도 변경해준다.</Text>
+        <Text>Redux는 아직 배우고 있어 redux-persist를 이용하여 로그인 상태를 유지해 주었다.</Text>
       </TextContainer>
-      <ProjectImg src="../../Portfolio/projectImg/fourtop/localstorage.JPG" text="Token" />
+      <ProjectImg src="../../Portfolio/projectImg/fourtop/4top_Localstorage.png" text="Token" />
       <TextContainer>
         <TextTitle>Gallery</TextTitle>
-        <Text>아직은 업로드시에 무료, 유료를 구분하지 않았기 때문에 전부 무료로 게시물이 넘어간다. &#40;prisma에서 Post 스키마에 payment를 추가해주어 구분해주면 될 것 같다&#41;</Text>
-        <Text>GraphQL pagination을 사용하여 User를 3명씩 보여준다.</Text>
+        <Text>이달의 무료 작품은 좋아요 많은 순 5명만 보여준다.</Text>
+        <Text>이달의 유료 작품은 준비중입니다.</Text>
+        <Text>이달의 크리에이터는 좋아요, 댓글 많은 순 5명만 보여준다.</Text>
       </TextContainer>
-      <ProjectImg src="../../Portfolio/projectImg/fourtop/gallery.png" text="Gallery" />
+      <ProjectImg src="../../Portfolio/projectImg/fourtop/4top_Gallery.png" text="Gallery" />
       <TextContainer>
         <TextTitle>Company</TextTitle>
         <Text>useState를 사용하여 소개, 인사말, 비젼 & 미션, 연혁 탭을 클릭하면 각각의 컴포넌트를 보여준다.</Text>
       </TextContainer>
-      <ProjectImg src="../../Portfolio/projectImg/fourtop/company.JPG" text="Company" />
+      <ProjectImg src="../../Portfolio/projectImg/fourtop/4top_Company.png" text="Company" />
       <TextContainer>
         <TextTitle>Upload</TextTitle>
         <Text>사진은 AWS S3에 저장을 하고 Prisma의 Post에는 AWS S3에 저장되어있는 사진의 url이 저장되어있다 &#40;multer, multer-s3사용&#41;</Text>
         <Text>이미지 파일을 선택하면 선택한 이미지 파일을 미리보여준다.</Text>
-        <Text>Gallery에서 게시물을 눌렀을때 상세 페이지 보여줄 예정이다.</Text>
       </TextContainer>
-      <ProjectImg src="../../Portfolio/projectImg/fourtop/upload.JPG" text="Upload" />
+      <ProjectImg src="../../Portfolio/projectImg/fourtop/4top_Upload.png" text="Upload" />
       <TextContainer>
         <TextTitle>Profile</TextTitle>
         <Text>사용자의 게시물 수, 팔로워 수, 팔로잉 수 등을 볼 수 있다.</Text>
         <Text>프로필이 자신인 경우에는 edit profile이 보여 프로필 변경이 가능하다.</Text>
         <Text>팔로워와 팔로우를 누르면 팔로워와 팔로우하는 사용자들을 오른쪽에 보이도록 하였다.</Text>
       </TextContainer>
-      <ProjectImg src="../../Portfolio/projectImg/fourtop/profile.JPG" text="Profile" />
+      <ProjectImg src="../../Portfolio/projectImg/fourtop/4top_Profile.png" text="Profile" />
       <GitLink>
         <GitHub size="48" />
         <span>Github Link</span>

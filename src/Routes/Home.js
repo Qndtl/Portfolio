@@ -160,7 +160,7 @@ const Home = ({ aboutRef, projectsRef, contactRef }) => {
   const coinSkills = ['react'];
   const spSkills = ['mongodb', 'graphql', 'passport', 'express', 'react'];
   const instaSkills = ['prisma', 'apollo', 'react', 'graphql', 'passport'];
-  const fourtopSkills = ['prisma', 'apollo', 'react', 'graphql', 'passport'];
+  const fourtopSkills = ['prisma', 'react', 'redux', 'express'];
 
   const [opacity, setOpacity] = useState(true);
   const opacityRef = useRef();
@@ -212,7 +212,7 @@ const Home = ({ aboutRef, projectsRef, contactRef }) => {
       <Projects ref={projectsRef}>
         <Title>Projects</Title>
         <ProjectsContainer>
-          <ProjectCard link="/project/fourtop" src={'../../Portfolio/projectImg/fourTop_home.png'} text="Four Top" skills={fourtopSkills} inProgress={true} />
+          <ProjectCard link="/project/fourtop" src={'../../Portfolio/projectImg/fourtop/4top_Home.png'} text="Four Top" skills={fourtopSkills} inProgress={true} />
           <ProjectCard link="/project/lol" src={'../../Portfolio/projectImg/lol_main.JPG'} text="LOL Record Search" skills={lolSkills} inProgress={false} />
           <ProjectCard link="/project/coin" src={'../../Portfolio/projectImg/coin_main.JPG'} text="Coin Price Chart" skills={coinSkills} inProgress={false} />
           <ProjectCard link="/project/simplepost" src={'../../Portfolio/projectImg/SP_auth.JPG'} text="Simple Posting" skills={spSkills} inProgress={false} />
