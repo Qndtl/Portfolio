@@ -141,7 +141,7 @@ const LOL = () => {
         <span>/</span>
         <a href="https://github.com/hyunduk-jo/lol-record-client">CLIENT</a>
         <span>/</span>
-        <a href="https://lol-record.netlify.com">LINK</a>
+        <a href="https://lol-record.netlify.com">DEPLOY LINK</a>
       </GitLink>
     </Container>
   </>

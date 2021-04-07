@@ -135,7 +135,7 @@ const CoinChart = () => {
         <span>Github Link</span>
         <a href="https://github.com/hyunduk-jo/coin-chart">CLIENT</a>
         <span>/</span>
-        <a href="https://hyunduk-jo.github.io/coin-chart">GH_PAGES</a>
+        <a href="https://hyunduk-jo.github.io/coin-chart">DEPLOY LINK</a>
       </GitLink>
     </Container>
   </>

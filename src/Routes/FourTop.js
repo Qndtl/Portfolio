@@ -130,7 +130,7 @@ const FourTop = () => {
         <span>/</span>
         <a href="https://github.com/Qndtl/Printer-Front">CLIENT</a>
         <span>/</span>
-        <a href="https://4top.netlify.com">LINK</a>
+        <a href="https://4top.netlify.com">DEPLOY LINK</a>
       </GitLink>
     </Container>
   </>
